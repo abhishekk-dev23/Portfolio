@@ -130,7 +130,6 @@ const page = () => {
                                 title="YouTube Clone"
                                 type="Backend Project"
                                 link="https://github.com/abhi-web-kr/Youtube-backend"
-                                img=""
                                 github="https://github.com/abhi-web-kr/Youtube-backend"
                             />
                         </div>
