@@ -2,17 +2,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { SiGeeksforgeeks } from "react-icons/si";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { HiMiniMoon, HiMiniSun } from "react-icons/hi2";
 import Logo from "./Logo";
 import { usePathname } from "next/navigation";
-import {
-    TwitterIcon,
-    LinkedInIcon,
-    GithubIcon,
-    LeetcodeIcon,
-    SunIcon,
-    MoonIcon,
-    GeeksForGeeksIcon,
-} from "./Icons";
+import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import { useRouter } from "next/navigation";
@@ -101,7 +96,7 @@ const NavBar = () => {
                         className="w-6 mr-3"
                         aria-label="Twitter"
                     >
-                        <TwitterIcon />
+                        <FaXTwitter className="w-full h-full" />
                     </motion.a>
                     <motion.a
                         href="https://www.linkedin.com/in/abhi-web-kr/"
@@ -111,7 +106,7 @@ const NavBar = () => {
                         className="w-6 mx-3"
                         aria-label="LinkedIn"
                     >
-                        <LinkedInIcon />
+                        <FaLinkedin className="w-full h-full" />
                     </motion.a>
                     <motion.a
                         href="https://github.com/abhi-web-kr"
@@ -121,7 +116,7 @@ const NavBar = () => {
                         className="w-6 mx-3"
                         aria-label="Github"
                     >
-                        <GithubIcon />
+                        <FaGithub className="w-full h-full" />
                     </motion.a>
                     <motion.a
                         href="https://leetcode.com/u/abhi-web-kr/"
@@ -131,7 +126,7 @@ const NavBar = () => {
                         className="w-6 mx-3 fill-dark dark:fill-light rounded-full"
                         aria-label="Leetcode"
                     >
-                        <LeetcodeIcon />
+                        <SiLeetcode className="w-full h-full" />
                     </motion.a>
 
                     <motion.a
@@ -142,8 +137,7 @@ const NavBar = () => {
                         className="w-6 mx-3 fill-dark dark:fill-light"
                         aria-label="GeeksForGeeks"
                     >
-                        <SiGeeksforgeeks className="w-[35px] h-[35px] pr-[4px]"/>
-
+                        <SiGeeksforgeeks className="w-[35px] h-[35px] pr-[4px]" />
                     </motion.a>
 
                     <button
@@ -154,9 +148,9 @@ const NavBar = () => {
                         aria-label={`${"mode" === "light" ? "light" : "dark"} mode`}
                     >
                         {mode === "dark" ? (
-                            <SunIcon className={"fill-dark"} />
+                            <HiMiniSun className="w-5 h-5" />
                         ) : (
-                            <MoonIcon className={"fill-dark"} />
+                            <HiMiniMoon className="w-5 h-5" />
                         )}
                     </button>
                 </nav>
@@ -196,7 +190,7 @@ const NavBar = () => {
                             className="w-6 mr-3 sm:mr-1"
                             aria-label="Twitter"
                         >
-                            <TwitterIcon />
+                            <FaXTwitter className="w-full h-full" />
                         </motion.a>
                         <motion.a
                             href="https://www.linkedin.com/in/abhi-web-kr/"
@@ -206,7 +200,7 @@ const NavBar = () => {
                             className="w-6 mx-3 sm:mx-1"
                             aria-label="LinkedIn"
                         >
-                            <LinkedInIcon />
+                            <FaLinkedin className="w-full h-full" />
                         </motion.a>
                         <motion.a
                             href="https://github.com/abhi-web-kr"
@@ -216,7 +210,7 @@ const NavBar = () => {
                             className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                             aria-label="Github"
                         >
-                            <GithubIcon />
+                            <FaGithub className="w-full h-full" />
                         </motion.a>
                         <motion.a
                             href="https://leetcode.com/u/abhi-web-kr/"
@@ -226,7 +220,7 @@ const NavBar = () => {
                             className="w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1"
                             aria-label="Leetcode"
                         >
-                            <LeetcodeIcon />
+                            <SiLeetcode className="w-full h-full" />
                         </motion.a>
                         <motion.a
                             href="https://www.geeksforgeeks.org/profile/obishake?tab=activity"
@@ -236,7 +230,7 @@ const NavBar = () => {
                             className="w-6 mx-3 sm:mx-1 fill-light dark:fill-dark"
                             aria-label="Geeksforgeeks"
                         >
-                            <SiGeeksforgeeks className="w-[35px] h-[35px] dark:text-black text-white  pr-[7px]"/>
+                            <SiGeeksforgeeks className="w-[35px] h-[35px] dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <button
                             onClick={() => {
@@ -246,9 +240,9 @@ const NavBar = () => {
                             aria-label={`${"mode" === "light" ? "light" : "dark"} mode`}
                         >
                             {mode === "dark" ? (
-                                <SunIcon className={"fill-dark"} />
+                                <HiMiniSun className="w-5 h-5" />
                             ) : (
-                                <MoonIcon className={"fill-dark"} />
+                                <HiMiniMoon className="w-5 h-5" />
                             )}
                         </button>
                     </nav>

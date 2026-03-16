@@ -3,7 +3,7 @@ import Image from "next/image";
 import profilePic from "../../public/images/profile/developer.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icons";
+import { FaArrowRightLong } from "react-icons/fa6";
 import HireMe from "@/components/HireMe";
 import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -43,7 +43,8 @@ export default function Home() {
                                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
                                     prefetch={false}
                                 >
-                                    Resume <LinkArrow className={"w-6 ml-1"} />
+                                    Resume{" "}
+                                    <FaArrowRightLong className="w-6 ml-1" />
                                 </Link>
                                 <Link
                                     href="mailto:abhishek.web.kr@gmail.com"
