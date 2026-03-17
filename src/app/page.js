@@ -4,7 +4,7 @@ import profilePic from "../../public/images/profile/developer.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
-// import HireMe from "@/components/HireMe";
+import HireMe from "@/components/HireMe";
 import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -57,7 +57,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Structure>
-                {/* <HireMe /> */}
+                <HireMe />
                 <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
                     <Image
                         src={LightBulb}
