@@ -33,9 +33,9 @@ const page = () => {
                                 title="A11yGuard"
                                 summary="A11yGuard is a full-stack accessibility auditor built with Next.js and Puppeteer to ensure websites are inclusive for Screen Reader users. I automated WCAG 2.1 scanning and engineered a multi-stage Docker build to optimize performance on a resource-limited 512MB RAM server. The tool provides actionable fix recommendations, effectively bridging the gap between complex web standards and developer-friendly implementation."
                                 type="Full Stack Project"
-                                link="https://a11yguard.onrender.com/"
+                                link="https://axeon.onrender.com/"
                                 img={a11gaurd}
-                                github="https://github.com/abhi-web-kr/A11yGuard"
+                                github="https://github.com/abhi-web-kr/Axeon"
                             />
                         </div>
                         <div className="col-span-12">
