@@ -4,6 +4,8 @@ A personal developer portfolio built with Next.js 14, React 18, Tailwind CSS, an
 
 This project showcases profile information, projects, skills, education, experience, and achievements with smooth page transitions, responsive layouts, and light/dark theme support.
 
+![Home Page](public/home-page-image.png)
+
 ## Highlights
 
 - Next.js App Router architecture
