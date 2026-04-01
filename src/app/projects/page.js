@@ -4,7 +4,7 @@ import React from "react";
 
 import ChatappImage from "../../../public/images/projects/chatapp.png";
 import aiAssistant from "../../../public/images/projects/ai assistant.png";
-import a11gaurd from "../../../public/images/projects/a11gaurd.png";
+import axeon from "../../../public/images/projects/axeon.png";
 import crypto from "../../../public/images/projects/crypto.png";
 import echomind from "../../../public/images/projects/echomind.png";
 import library from "../../../public/images/projects/library.png";
@@ -34,7 +34,7 @@ const page = () => {
                                 summary="A11yGuard is a full-stack accessibility auditor built with Next.js and Puppeteer to ensure websites are inclusive for Screen Reader users. I automated WCAG 2.1 scanning and engineered a multi-stage Docker build to optimize performance on a resource-limited 512MB RAM server. The tool provides actionable fix recommendations, effectively bridging the gap between complex web standards and developer-friendly implementation."
                                 type="Full Stack Project"
                                 link="https://axeon.onrender.com/"
-                                img={a11gaurd}
+                                img={axeon}
                                 github="https://github.com/abhi-web-kr/Axeon"
                             />
                         </div>
@@ -73,7 +73,7 @@ const page = () => {
                                 title="EchoMind"
                                 summary="EchoMind is a sophisticated full-stack web application built using the MERN stack that serves as a dynamic platform for personal expression and digital storytelling. It provides a comprehensive interface where users can seamlessly create, read, update, and delete their own blog posts with real-time feedback."
                                 type="Full Stack Project"
-                                link="https://echo-mind-frontend-kappa.vercel.app/"
+                                link="https://echomind-frontend-7815.onrender.com/"
                                 img={echomind}
                                 github="https://github.com/abhi-web-kr/EchoMind"
                             />
