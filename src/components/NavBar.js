@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { SiGeeksforgeeks } from "react-icons/si";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaUserGraduate } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiMiniMoon, HiMiniSun } from "react-icons/hi2";
 import Logo from "./Logo";
@@ -89,14 +89,14 @@ const NavBar = () => {
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a
-                        href="https://x.com/abhishek_321_k"
+                        href="https://codolio.com/profile/abhi-web-kr"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3"
-                        aria-label="Twitter"
+                        aria-label="Codolio"
                     >
-                        <FaXTwitter className="w-full h-full" />
+                        <FaUserGraduate className="w-full h-full" />
                     </motion.a>
                     <motion.a
                         href="https://www.linkedin.com/in/abhi-web-kr/"
@@ -183,14 +183,14 @@ const NavBar = () => {
                     </nav>
                     <nav className="flex items-center justify-center flex-wrap mt-2">
                         <motion.a
-                            href="https://twitter.com"
+                            href="https://codolio.com/profile/abhi-web-kr"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
                             className="w-6 mr-3 sm:mr-1"
-                            aria-label="Twitter"
+                            aria-label="Codolio"
                         >
-                            <FaXTwitter className="w-full h-full" />
+                            <FaUserGraduate className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
                             href="https://www.linkedin.com/in/abhi-web-kr/"
@@ -200,27 +200,27 @@ const NavBar = () => {
                             className="w-6 mx-3 sm:mx-1"
                             aria-label="LinkedIn"
                         >
-                            <FaLinkedin className="w-full h-full" />
+                            <FaLinkedin className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
                             href="https://github.com/abhi-web-kr"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
-                            className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+                            className="w-6 mx-3 sm:mx-1 fill-light dark:fill-dark"
                             aria-label="Github"
                         >
-                            <FaGithub className="w-full h-full" />
+                            <FaGithub className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
                             href="https://leetcode.com/u/abhi-web-kr/"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
-                            className="w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1"
+                            className="w-6 mx-3 sm:mx-1 fill-light dark:fill-dark"
                             aria-label="Leetcode"
                         >
-                            <SiLeetcode className="w-full h-full" />
+                            <SiLeetcode className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
                             href="https://www.geeksforgeeks.org/profile/obishake?tab=activity"
@@ -230,7 +230,7 @@ const NavBar = () => {
                             className="w-6 mx-3 sm:mx-1 fill-light dark:fill-dark"
                             aria-label="Geeksforgeeks"
                         >
-                            <SiGeeksforgeeks className="w-[35px] h-[35px] dark:text-black text-white  pr-[7px]" />
+                            <SiGeeksforgeeks className="w-[30px] h-[30px] dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <button
                             onClick={() => {
