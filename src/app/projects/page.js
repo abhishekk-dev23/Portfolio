@@ -35,7 +35,7 @@ const page = () => {
                                 type="Full Stack Project"
                                 link="https://axeon.onrender.com/"
                                 img={axeon}
-                                github="https://github.com/abhi-web-kr/Axeon"
+                                github="https://github.com/abhishekk-dev23/Axeon"
                             />
                         </div>
                         <div className="col-span-12">
@@ -45,7 +45,7 @@ const page = () => {
                                 type="Full Stack Project"
                                 link="https://chat-app-phi-murex.vercel.app/"
                                 img={ChatappImage}
-                                github="https://github.com/abhi-web-kr/Chat-App"
+                                github="https://github.com/abhishekk-dev23/Chat-App"
                             />
                         </div>
 
@@ -55,7 +55,7 @@ const page = () => {
                                 type="Frontend Project"
                                 link="https://crypto-place-obishake.vercel.app/"
                                 img={crypto}
-                                github="https://github.com/abhi-web-kr/CryptoPlace"
+                                github="https://github.com/abhishekk-dev23/CryptoPlace"
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
@@ -64,7 +64,7 @@ const page = () => {
                                 type="Frontend Project"
                                 link="https://vid-tube-obi.vercel.app/"
                                 img={youtube}
-                                github="https://github.com/abhi-web-kr/VidTube"
+                                github="https://github.com/abhishekk-dev23/VidTube"
                             />
                         </div>
 
@@ -75,7 +75,7 @@ const page = () => {
                                 type="Full Stack Project"
                                 link="https://echomind-frontend-7815.onrender.com/"
                                 img={echomind}
-                                github="https://github.com/abhi-web-kr/EchoMind"
+                                github="https://github.com/abhishekk-dev23/EchoMind"
                             />
                         </div>
                         <div className="col-span-12">
@@ -85,7 +85,7 @@ const page = () => {
                                 type="Full Stack Project"
                                 link="https://virtual-assistant-frontend-5pj8.onrender.com/"
                                 img={aiAssistant}
-                                github="https://github.com/abhi-web-kr/Virtual-Assistant"
+                                github="https://github.com/abhishekk-dev23/Virtual-Assistant"
                             />
                         </div>
                         <div className="col-span-12">
@@ -94,7 +94,7 @@ const page = () => {
                                 summary="BookStack is a comprehensive web application built using the MERN stack that enables users to manage a digital library collection. It provides a seamless interface for adding, viewing, and deleting book records by interacting with a dedicated MongoDB database."
                                 link="https://book-store-frontend-sltx.onrender.com/"
                                 img={library}
-                                github="https://github.com/abhi-web-kr/Book-Store"
+                                github="https://github.com/abhishekk-dev23/Book-Store"
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
@@ -103,7 +103,7 @@ const page = () => {
                                 type="Frontend Project"
                                 link="https://net-mirror-wheat.vercel.app/"
                                 img={netflix}
-                                github="https://github.com/abhi-web-kr/NetMirror"
+                                github="https://github.com/abhishekk-dev23/NetMirror"
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
@@ -112,7 +112,7 @@ const page = () => {
                                 type="Frontend Project"
                                 link="https://prime-video-ui-clone.vercel.app/"
                                 img={prime}
-                                github="https://github.com/abhi-web-kr/Prime-Video-UI-Clone"
+                                github="https://github.com/abhishekk-dev23/Prime-Video-UI-Clone"
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
@@ -121,7 +121,7 @@ const page = () => {
                                 type="Frontend Project"
                                 link="https://study-sync-project-amber.vercel.app/"
                                 img={study}
-                                github="https://github.com/abhi-web-kr/Study-Sync-project"
+                                github="https://github.com/abhishekk-dev23/Study-Sync-project"
                             />
                         </div>
 
@@ -129,8 +129,8 @@ const page = () => {
                             <Project
                                 title="YouTube Clone"
                                 type="Backend Project"
-                                link="https://github.com/abhi-web-kr/Youtube-backend"
-                                github="https://github.com/abhi-web-kr/Youtube-backend"
+                                link="https://github.com/abhishekk-dev23/Youtube-backend"
+                                github="https://github.com/abhishekk-dev23/Youtube-backend"
                             />
                         </div>
                     </div>

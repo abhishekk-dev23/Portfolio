@@ -97,6 +97,6 @@ Optional local production test:
 ## Contact
 
 - Portfolio Owner: Abhishek Kumar
-- Email: abhishek.web.kr@gmail.com
-- LinkedIn: https://www.linkedin.com/in/abhi-web-kr/
-- GitHub: https://github.com/abhi-web-kr
+- Email: abhishek.kumar.dev23@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhishekk-dev/
+- GitHub: https://github.com/abhishekk-dev23

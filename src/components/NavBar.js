@@ -89,7 +89,7 @@ const NavBar = () => {
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a
-                        href="https://codolio.com/profile/abhi-web-kr"
+                        href="https://codolio.com/profile/abhishekk-dev"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -99,7 +99,7 @@ const NavBar = () => {
                         <FaUserGraduate className="w-full h-full" />
                     </motion.a>
                     <motion.a
-                        href="https://www.linkedin.com/in/abhi-web-kr/"
+                        href="https://www.linkedin.com/in/abhishekk-dev/"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -109,7 +109,7 @@ const NavBar = () => {
                         <FaLinkedin className="w-full h-full" />
                     </motion.a>
                     <motion.a
-                        href="https://github.com/abhi-web-kr"
+                        href="https://github.com/abhishekk-dev23"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -119,7 +119,7 @@ const NavBar = () => {
                         <FaGithub className="w-full h-full" />
                     </motion.a>
                     <motion.a
-                        href="https://leetcode.com/u/abhi-web-kr/"
+                        href="https://leetcode.com/u/abhishekk--dev/"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -183,7 +183,7 @@ const NavBar = () => {
                     </nav>
                     <nav className="flex items-center justify-center flex-wrap mt-2">
                         <motion.a
-                            href="https://codolio.com/profile/abhi-web-kr"
+                            href="https://codolio.com/profile/abhishekk-dev"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -193,7 +193,7 @@ const NavBar = () => {
                             <FaUserGraduate className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
-                            href="https://www.linkedin.com/in/abhi-web-kr/"
+                            href="https://www.linkedin.com/in/abhishekk-dev/"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -203,7 +203,7 @@ const NavBar = () => {
                             <FaLinkedin className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
-                            href="https://github.com/abhi-web-kr"
+                            href="https://github.com/abhishekk-dev23"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -213,7 +213,7 @@ const NavBar = () => {
                             <FaGithub className="w-full h-full dark:text-black text-white  pr-[7px]" />
                         </motion.a>
                         <motion.a
-                            href="https://leetcode.com/u/abhi-web-kr/"
+                            href="https://leetcode.com/u/abhishekk--dev/"
                             target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
