@@ -73,7 +73,7 @@ const page = () => {
                                 title="EchoMind"
                                 summary="EchoMind is a sophisticated full-stack web application built using the MERN stack that serves as a dynamic platform for personal expression and digital storytelling. It provides a comprehensive interface where users can seamlessly create, read, update, and delete their own blog posts with real-time feedback."
                                 type="Full Stack Project"
-                                link="https://echomind-frontend-7815.onrender.com/"
+                                link="https://echomind-frontend-3jmp.onrender.com/"
                                 img={echomind}
                                 github="https://github.com/abhishekk-dev23/EchoMind"
                             />
