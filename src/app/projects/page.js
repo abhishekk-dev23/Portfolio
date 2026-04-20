@@ -30,8 +30,8 @@ const page = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                                title="A11yGuard"
-                                summary="A11yGuard is a full-stack accessibility auditor built with Next.js and Puppeteer to ensure websites are inclusive for Screen Reader users. I automated WCAG 2.1 scanning and engineered a multi-stage Docker build to optimize performance on a resource-limited 512MB RAM server. The tool provides actionable fix recommendations, effectively bridging the gap between complex web standards and developer-friendly implementation."
+                                title="Axeon"
+                                summary="Axeon is a full-stack accessibility auditor built with Next.js and Puppeteer to ensure websites are inclusive for Screen Reader users. I automated WCAG 2.1 scanning and engineered a multi-stage Docker build to optimize performance on a resource-limited 512MB RAM server. The tool provides actionable fix recommendations, effectively bridging the gap between complex web standards and developer-friendly implementation."
                                 type="Full Stack Project"
                                 link="https://axeon.onrender.com/"
                                 img={axeon}
